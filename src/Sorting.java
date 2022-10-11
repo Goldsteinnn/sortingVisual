@@ -98,7 +98,7 @@ public class Sorting extends JPanel {
     public void BubbleSortAnimate() throws Exception{
         compare_index = 0;
 
-        Timer timer = new Timer(1, new ActionListener() {
+        Timer timer = new Timer(0, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(isSorted()){
